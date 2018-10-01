@@ -47,6 +47,7 @@ add_message_files(
   PostPick.msg
   PrePlace.msg
   PostPlace.msg
+  SwitchMap.msg
 )
 
 add_service_files(
@@ -76,6 +77,7 @@ add_service_files(
   PrePlacePetition.srv
   PostPlacePetition.srv
   SetGoToPetition.srv
+  SwitchMapPetition.srv
 )
 
 ## Generate actions in the 'action' folder
