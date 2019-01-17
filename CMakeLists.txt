@@ -53,6 +53,7 @@ add_message_files(
 
 add_service_files(
   FILES
+  BatteryExchangePetition.srv
   LeaveShowerPetition.srv
   EnterShowerPetition.srv
   EnterLiftPetition.srv
