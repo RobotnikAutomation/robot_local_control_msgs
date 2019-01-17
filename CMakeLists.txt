@@ -39,6 +39,7 @@ add_message_files(
   MissionParamFloat.msg
   MissionParamBool.msg
   MissionParamString.msg
+  MagneticGoTo.msg
   MagneticPick.msg
   MagneticPlace.msg
   LeaveMagneticGuide.msg
@@ -68,6 +69,7 @@ add_service_files(
   Cancel.srv
   SimpleGoToWithValidation.srv
   MissionCommandPetition.srv
+  MagneticGoToPetition.srv
   MagneticPickPetition.srv
   MagneticPlacePetition.srv
   LeaveMagneticGuidePetition.srv
