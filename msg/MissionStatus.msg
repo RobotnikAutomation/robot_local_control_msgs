@@ -1,12 +1,12 @@
 # MISSION STATES
 # States inside a mission
-string MISSION_STATE_UNKNOWN=unknown
-string MISSION_STATE_RUNNING=running
-string MISSION_STATE_PAUSED=paused
-string MISSION_STATE_FINISHED=finished
-string MISSION_STATE_CANCELLED=cancelled
-string MISSION_STATE_ERROR=error
-string MISSION_STATE_QUEUED=queued
+string UNKNOWN=unknown
+string RUNNING=running
+string PAUSED=paused
+string FINISHED=finished
+string CANCELLED=cancelled
+string ERROR=error
+string QUEUED=queued
 # running: mission is running
 # paused: mission is paused
 # finished: mission finished
@@ -16,7 +16,7 @@ string MISSION_STATE_QUEUED=queued
 
 
 #
-int32 id
+string id
 
 # ID of the mision based on string format: GOTO [4,5,6]
 string description

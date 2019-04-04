@@ -1,3 +1,4 @@
+# XXX: DO NOT USE THIS MESSAGE
 # available commands
 string GOTO_POSE=goto_pose
 string GOTO_TAG=goto_tag

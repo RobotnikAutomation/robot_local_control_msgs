@@ -78,6 +78,7 @@ add_service_files(
   PostPlacePetition.srv
   SetGoToPetition.srv
   SwitchMapPetition.srv
+  MissionPetition.srv
 )
 
 ## Generate actions in the 'action' folder
