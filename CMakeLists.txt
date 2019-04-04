@@ -22,6 +22,7 @@ add_message_files(
    Pick.msg
    Dock.msg
    GoTo.msg
+   GoToNode.msg
    StatusArray.msg
    Status.msg
    Pose2DStamped.msg
@@ -66,6 +67,7 @@ add_service_files(
   PickPetition.srv
   DockPetition.srv
   GoToPetition.srv
+  GoToNodePetition.srv
   StatusPetition.srv
   SetControlState.srv
   Cancel.srv
