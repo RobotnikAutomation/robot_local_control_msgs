@@ -12,5 +12,12 @@ bool emergency_stop
 Pose2DStamped pose
 Twist2D velocity
 
+# Safety status
+robotnik_msgs/SafetyModuleStatus safety_status
+
+# Battery Docking status
+robotnik_msgs/BatteryDockingStatus battery_docking_status
+
+
 SensorStatus[] sensors
 robotnik_msgs/ElevatorStatus elevator

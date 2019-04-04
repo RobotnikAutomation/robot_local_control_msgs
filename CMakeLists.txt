@@ -39,6 +39,7 @@ add_message_files(
   MissionParamFloat.msg
   MissionParamBool.msg
   MissionParamString.msg
+  MagneticGoTo.msg
   MagneticPick.msg
   MagneticPlace.msg
   LeaveMagneticGuide.msg
@@ -48,10 +49,12 @@ add_message_files(
   PrePlace.msg
   PostPlace.msg
   SwitchMap.msg
+  SetElevator.msg
 )
 
 add_service_files(
   FILES
+  BatteryExchangePetition.srv
   LeaveShowerPetition.srv
   EnterShowerPetition.srv
   EnterLiftPetition.srv
@@ -68,6 +71,7 @@ add_service_files(
   Cancel.srv
   SimpleGoToWithValidation.srv
   MissionCommandPetition.srv
+  MagneticGoToPetition.srv
   MagneticPickPetition.srv
   MagneticPlacePetition.srv
   LeaveMagneticGuidePetition.srv
@@ -78,6 +82,7 @@ add_service_files(
   PostPlacePetition.srv
   SetGoToPetition.srv
   SwitchMapPetition.srv
+  SetElevatorPetition.srv
   MissionPetition.srv
 )
 
