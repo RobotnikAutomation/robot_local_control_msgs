@@ -16,7 +16,7 @@ string QUEUED=queued
 
 
 #
-string id
+int32 id
 
 # ID of the mision based on string format: GOTO [4,5,6]
 string description

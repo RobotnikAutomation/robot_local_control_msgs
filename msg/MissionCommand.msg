@@ -5,7 +5,7 @@ string GOTO_TAG=goto_tag
 string GOTO_NODE=goto_node
 
 # id set from the subsystem calling the service
-string id
+int32 id
 # command from the available commands
 string command
 
