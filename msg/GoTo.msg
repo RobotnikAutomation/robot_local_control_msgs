@@ -4,3 +4,5 @@ Pose2DStamped[] goals
 # specified, or a set of the same size as goals, in which each goal
 # will be reached with its maximum velocity
 Twist2D[] max_velocities
+
+geometry_msgs/Pose2D goal_threshold
