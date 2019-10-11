@@ -1,3 +1,2 @@
 uint16 node
-float32 orientation_offset
-float32 position_offset
+geometry_msgs/Pose2D offset
