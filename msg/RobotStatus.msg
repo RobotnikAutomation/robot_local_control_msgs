@@ -21,3 +21,16 @@ robotnik_msgs/BatteryDockingStatus battery_docking_status
 
 SensorStatus[] sensors
 robotnik_msgs/ElevatorStatus elevator
+
+
+# state of the navigation node running
+string ROBOT_STATUS_INIT=init
+string ROBOT_STATUS_READY=ready
+string ROBOT_STATUS_EMERGENCY=emergency
+string ROBOT_STATUS_FAILURE=failure
+string ROBOT_STATUS_UNKNOWN=unknown
+
+# global state
+string state
+# description of the state (information purposes)
+string[] state_description
