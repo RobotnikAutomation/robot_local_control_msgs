@@ -1,0 +1,2 @@
+# INIT, READY, EMERGENCY, FAILURE
+string state

@@ -71,6 +71,10 @@ NavigationStatus navigation_status
 # odometry
 RobotStatus robot_status
 
+# Robot status: batt, lights, acoustic signal
+# odometry
+SignalManager signal_manager
+
 
 
 # clasificarlo por tipos (action, localization, sensors,controllers...)
