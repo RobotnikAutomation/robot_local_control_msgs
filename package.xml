@@ -14,12 +14,14 @@
   <build_depend>geometry_msgs</build_depend>
   <build_depend>procedures_msgs</build_depend>
   <build_depend>robotnik_msgs</build_depend>
+  <build_depend>robotnik_signal_msgs</build_depend>
   
   <run_depend>procedures_msgs</run_depend>
   <run_depend>geometry_msgs</run_depend>
   <run_depend>std_msgs</run_depend>
   <run_depend>message_runtime</run_depend>
   <run_depend>robotnik_msgs</run_depend>
+  <run_depend>robotnik_signal_msgs</run_depend>
   
   <!-- The export tag contains other, unspecified, tags -->
   <export>

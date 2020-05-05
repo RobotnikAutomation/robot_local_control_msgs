@@ -71,8 +71,7 @@ NavigationStatus navigation_status
 # odometry
 RobotStatus robot_status
 
-# Robot status: batt, lights, acoustic signal
-# odometry
+# Signal manager: array with the signal of each sensor
 SignalManager signal_manager
 
 
