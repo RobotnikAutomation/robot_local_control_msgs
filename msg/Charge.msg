@@ -1,1 +1,1 @@
-string charge_station
+string pick_frame_id
