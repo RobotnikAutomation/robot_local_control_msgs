@@ -71,6 +71,9 @@ NavigationStatus navigation_status
 # odometry
 RobotStatus robot_status
 
+# Signal manager: array with the signal of each sensor
+SignalManager signal_manager
+
 
 
 # clasificarlo por tipos (action, localization, sensors,controllers...)

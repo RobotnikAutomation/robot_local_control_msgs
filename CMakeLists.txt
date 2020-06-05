@@ -7,6 +7,7 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   std_msgs
   robotnik_msgs
+  robotnik_signal_msgs
 )
 
 add_message_files(
@@ -31,6 +32,7 @@ add_message_files(
    MissionStatus.msg
    NavigationStatus.msg
    RobotStatus.msg
+   SignalManager.msg
    SensorStatus.msg
 #   SetControlState.msg
    Missions.msg
@@ -103,11 +105,12 @@ generate_messages(
   geometry_msgs
   std_msgs
   robotnik_msgs
+  robotnik_signal_msgs
 )
 
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES robot_local_control_msgs
- CATKIN_DEPENDS message_runtime std_msgs geometry_msgs procedures_msgs robotnik_msgs
+ CATKIN_DEPENDS message_runtime std_msgs geometry_msgs procedures_msgs robotnik_msgs robotnik_signal_msgs
 #  DEPENDS system_lib
 )
