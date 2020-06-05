@@ -18,6 +18,8 @@ robotnik_msgs/SafetyModuleStatus safety_status
 # Battery Docking status
 robotnik_msgs/BatteryDockingStatus battery_docking_status
 
+ControllerStatus base_controller
+ControllerStatus arm_controller
 
 SensorStatus[] sensors
 robotnik_msgs/ElevatorStatus elevator

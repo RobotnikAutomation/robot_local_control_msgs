@@ -34,6 +34,7 @@ add_message_files(
    RobotStatus.msg
    SignalManager.msg
    SensorStatus.msg
+   ControllerStatus.msg
 #   SetControlState.msg
    Missions.msg
 # Mission command & params
