@@ -92,6 +92,8 @@ add_service_files(
   SetElevatorPetition.srv
   MissionPetition.srv
   SetFrameID.srv
+  SwitchModule.srv
+  SetPose2DStamped.srv
 )
 
 ## Generate actions in the 'action' folder
