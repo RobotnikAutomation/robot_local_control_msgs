@@ -94,6 +94,7 @@ add_service_files(
   SetFrameID.srv
   SwitchModule.srv
   SetPose2DStamped.srv
+  SetEnvironment.srv
 )
 
 ## Generate actions in the 'action' folder
