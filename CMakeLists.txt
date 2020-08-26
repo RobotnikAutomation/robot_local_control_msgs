@@ -95,6 +95,7 @@ add_service_files(
   SwitchModule.srv
   SetPose2DStamped.srv
   SetEnvironment.srv
+  SaveMap.srv
 )
 
 ## Generate actions in the 'action' folder
