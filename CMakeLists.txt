@@ -55,6 +55,8 @@ add_message_files(
   PostPlace.msg
   SwitchMap.msg
   SetElevator.msg
+  PointGPS.msg
+  GoToGPS.msg
 )
 
 add_service_files(
@@ -92,6 +94,7 @@ add_service_files(
   SetElevatorPetition.srv
   MissionPetition.srv
   SetFrameID.srv
+  GoToGPSPetition.srv
 )
 
 ## Generate actions in the 'action' folder
