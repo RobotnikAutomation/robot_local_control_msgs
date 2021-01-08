@@ -23,6 +23,7 @@ add_message_files(
    Pick.msg
    Dock.msg
    GoTo.msg
+   GoToTag.msg
    GoToNode.msg
    StatusArray.msg
    Status.msg
@@ -55,6 +56,8 @@ add_message_files(
   PostPlace.msg
   SwitchMap.msg
   SetElevator.msg
+  PointGPS.msg
+  GoToGPS.msg
 )
 
 add_service_files(
@@ -71,6 +74,7 @@ add_service_files(
   PickPetition.srv
   DockPetition.srv
   GoToPetition.srv
+  GoToTagPetition.srv
   GoToNodePetition.srv
   StatusPetition.srv
   SetControlState.srv
@@ -97,6 +101,8 @@ add_service_files(
   SetEnvironment.srv
   GetEnvironment.srv
   SaveMap.srv
+  GoToGPSPetition.srv
+
 )
 
 ## Generate actions in the 'action' folder
