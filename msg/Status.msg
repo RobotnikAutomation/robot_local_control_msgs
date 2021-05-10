@@ -14,7 +14,7 @@ string ROBOT_STATE_FAILURE=failure
 # CONTROL STATES OF THE ROBOT
 # auto: the robot is moving autonomously
 # manual: the robot is being tele-operated by an operator
-# follow: the robot is following a person 
+# follow: the robot is following a person
 string CONTROL_STATE_UNKNOWN=unknown
 string CONTROL_STATE_AUTO=auto
 string CONTROL_STATE_MANUAL=manual
@@ -53,11 +53,6 @@ string control_state
 # idle, calibrating, moving, raising_elevator,...
 string operation_state
 
-# state of the mission/task
-Missions mission_status
-
-# queued missions?
-
 # Robot position (Define custom pose type)
 # RobotPose pose
 # type: gps, amcl, gmapping
@@ -78,5 +73,3 @@ SignalManager signal_manager
 
 # clasificarlo por tipos (action, localization, sensors,controllers...)
 # string[] state_procedures
-
-
