@@ -22,8 +22,8 @@ Pose2DStamped pose
 # reliability
 bool reliable
 
-# Node/tag where the robot is 
-string node
+# Localization environment 
+string environment
 
 # Type of localization technology
 string type
