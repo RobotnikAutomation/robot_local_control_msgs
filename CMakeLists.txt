@@ -58,6 +58,7 @@ add_message_files(
   SetElevator.msg
   PointGPS.msg
   GoToGPS.msg
+  LookAt.msg
 )
 
 add_service_files(
@@ -97,6 +98,7 @@ add_service_files(
   MissionPetition.srv
   SetFrameID.srv
   GoToGPSPetition.srv
+  LookAtPetition.srv
 )
 
 ## Generate actions in the 'action' folder
