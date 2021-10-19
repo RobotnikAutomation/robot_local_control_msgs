@@ -12,6 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 add_message_files(
    FILES
+   EnterGlovebox.msg
    LeaveShower.msg
    EnterShower.msg
    EnterLift.msg
@@ -62,6 +63,7 @@ add_message_files(
 
 add_service_files(
   FILES
+  EnterGloveboxPetition.srv
   BatteryExchangePetition.srv
   LeaveShowerPetition.srv
   EnterShowerPetition.srv
