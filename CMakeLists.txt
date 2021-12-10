@@ -33,7 +33,6 @@ add_message_files(
    LocalizationStatus.msg
    MissionStatus.msg
    NavigationStatus.msg
-   ArmStatus.msg
    RobotStatus.msg
    SignalManager.msg
    SensorStatus.msg

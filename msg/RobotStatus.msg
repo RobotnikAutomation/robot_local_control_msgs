@@ -22,3 +22,4 @@ ControllerStatus[] controllers
 
 SensorStatus[] sensors
 robotnik_msgs/ElevatorStatus elevator
+robotnik_msgs/ArmStatus arm
