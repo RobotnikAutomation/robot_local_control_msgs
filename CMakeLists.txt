@@ -49,6 +49,7 @@ add_message_files(
   MagneticPick.msg
   MagneticPlace.msg
   MagneticNavigation.msg
+  BarcodePick.msg
   LeaveMagneticGuide.msg
   FindMagneticGuide.msg
   PrePick.msg
@@ -87,6 +88,7 @@ add_service_files(
   MagneticPickPetition.srv
   MagneticPlacePetition.srv
   MagneticNavigationPetition.srv
+  BarcodePickPetition.srv
   LeaveMagneticGuidePetition.srv
   FindMagneticGuidePetition.srv
   PrePickPetition.srv
