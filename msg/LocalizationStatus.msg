@@ -18,6 +18,7 @@ string LOCALIZATION_STATE_UNKNOWN=unknown
 
 # Pose of the robot based on the current localization algorithm
 Pose2DStamped pose
+Distance distance_travelled
 
 # reliability
 bool reliable
