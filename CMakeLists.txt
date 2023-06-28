@@ -60,6 +60,7 @@ add_message_files(
   SetElevator.msg
   PointGPS.msg
   GoToGPS.msg
+  Distance.msg
 )
 
 add_service_files(
