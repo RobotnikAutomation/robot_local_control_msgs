@@ -35,6 +35,9 @@ string OPERATION_STATE_MOVING=moving
 string OPERATION_STATE_ELEVATION_RAISE=raising_elevator
 string OPERATION_STATE_ELEVATION_LOWER=lowering_elevator
 string OPERATION_STATE_BATTERY_CHARGE=charging
+string OPERATION_STATE_BATTERY_CHARGE_AUTO=auto_charging
+string OPERATION_STATE_BATTERY_CHARGE_MANUAL=manual_charging
+
 
 
 ###############################################################################################
