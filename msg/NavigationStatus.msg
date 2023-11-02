@@ -19,3 +19,5 @@ string type
 
 # INIT, READY, EMERGENCY, FAILURE
 string state
+
+Distance distance_travelled

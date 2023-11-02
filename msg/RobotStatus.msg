@@ -11,6 +11,7 @@ bool emergency_stop
 # Robot internal odometry
 Pose2DStamped pose
 Twist2D velocity
+Distance distance_travelled
 
 # Safety status
 robotnik_msgs/SafetyModuleStatus safety_status
