@@ -1,0 +1,17 @@
+# ChargeDaemonStatus 
+string CHARGE_DAEMON_STOPPED=stopped
+string CHARGE_DAEMON_CHECKING_CONDITIONS=checking_conditions
+string CHARGE_DAEMON_RUNNING=running
+
+# ExecutionStatus
+string EXECUTION_STATUS_INIT=init
+string EXECUTION_STATUS_UNCHARGE=uncharge
+string EXECUTION_STATUS_ROTATION=rotation
+string EXECUTION_STATUS_CHARGE=charge
+string EXECUTION_STATUS_WAITING=waiting
+string EXECUTION_STATUS_CHECK_END=check_end
+string EXECUTION_STATUS_END=end
+string EXECUTION_STATUS_FAILURE=failure
+
+string charge_daemon_status
+string execution_status
