@@ -1,5 +1,3 @@
-rosPipeline(
-  rosdistro: ["melodic", "noetic"],
-  upstreamProjects: 'robotnik_msgs/ros-devel,procedures_msgs/ros-devel,robotnik_signal_msgs/ros-devel',
-  upload: true,
+buildPackage(
+  upstreamProjects: 'robotnik_msgs,procedures_msgs,robotnik_signal_msgs',
 )
