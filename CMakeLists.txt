@@ -108,6 +108,8 @@ add_service_files(
   SaveMap.srv
   GoToGPSPetition.srv
   SetDefaultModule.srv
+  SaveNavigationMap.srv 
+  SetDefaultNavigationMap.srv
 )
 
 ## Generate actions in the 'action' folder
