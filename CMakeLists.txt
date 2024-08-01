@@ -11,34 +11,34 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 add_message_files(
-   FILES
-   EnterGlovebox.msg
-   LeaveShower.msg
-   EnterShower.msg
-   EnterLift.msg
-   LeaveLift.msg
-   Uncharge.msg
-   Place.msg
-   Charge.msg
-   Move.msg
-   Pick.msg
-   Dock.msg
-   GoTo.msg
-   GoToTag.msg
-   GoToNode.msg
-   StatusArray.msg
-   Status.msg
-   Pose2DStamped.msg
-   Twist2D.msg
-   LocalizationStatus.msg
-   MissionStatus.msg
-   NavigationStatus.msg
-   RobotStatus.msg
-   SignalManager.msg
-   SensorStatus.msg
-   ControllerStatus.msg
+  FILES
+  EnterGlovebox.msg
+  LeaveShower.msg
+  EnterShower.msg
+  EnterLift.msg
+  LeaveLift.msg
+  Uncharge.msg
+  Place.msg
+  Charge.msg
+  Move.msg
+  Pick.msg
+  Dock.msg
+  GoTo.msg
+  GoToTag.msg
+  GoToNode.msg
+  StatusArray.msg
+  Status.msg
+  Pose2DStamped.msg
+  Twist2D.msg
+  LocalizationStatus.msg
+  MissionStatus.msg
+  NavigationStatus.msg
+  RobotStatus.msg
+  SignalManager.msg
+  SensorStatus.msg
+  ControllerStatus.msg
 #   SetControlState.msg
-   Missions.msg
+  Missions.msg
 # Mission command & params
   MissionCommand.msg
   MissionParamInt.msg
@@ -61,6 +61,7 @@ add_message_files(
   PointGPS.msg
   GoToGPS.msg
   Distance.msg
+  SideDocking.msg
 )
 
 add_service_files(
@@ -110,6 +111,7 @@ add_service_files(
   SetDefaultModule.srv
   SaveNavigationMap.srv 
   SetDefaultNavigationMap.srv
+  SideDockingPetition.srv
 )
 
 ## Generate actions in the 'action' folder
