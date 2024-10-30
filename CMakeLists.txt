@@ -61,6 +61,8 @@ add_message_files(
   PointGPS.msg
   GoToGPS.msg
   Distance.msg
+  GoToMBFAlarm.msg
+  GoToMBFAlarmsArray.msg
 )
 
 add_service_files(
