@@ -112,6 +112,7 @@ add_service_files(
   SetDefaultModule.srv
   SaveNavigationMap.srv 
   SetDefaultNavigationMap.srv
+  DeleteNavigationMap.srv
 )
 
 ## Generate actions in the 'action' folder
