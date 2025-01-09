@@ -1,6 +1,4 @@
-# environment id: lab_1,...
 string environment
-# map name: lab_1_nav_1,...
 string map_name
 ---
 bool success   # indicate successful run of triggered service
