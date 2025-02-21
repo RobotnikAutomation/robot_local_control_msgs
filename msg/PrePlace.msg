@@ -1,3 +1,4 @@
 float64 maximum_distance
 uint32 lane
 string turn_direction
+bool enable_extra_rotation
